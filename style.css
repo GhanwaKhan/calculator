@@ -1,0 +1,36 @@
+.main {
+    background-color: aqua;
+    margin: 20px auto;
+    width: 400px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.result {
+    width: 90%;
+    height: 60px;
+    /* margin: 10px auto 10px auto; */
+    /* margin-left: auto; */
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+    padding-right: 10px;
+font-size: 30px;
+background-color: #ffff99;
+}
+
+.mainBtn {
+   margin-left: 12px;
+}
+
+.btn {
+    width: 122px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    border: none;
+    /* margin: 0 auto ; */
+}

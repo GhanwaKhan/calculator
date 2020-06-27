@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <input id="result" type="text" class="result">
+        </div>
+        <div class="mainBtn">
+            <div>
+                <button class="btn" style="background-color: black; color: white;" onclick="sin()">SIN</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="cos()">COS</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="tan()">TAN</button>
+            </div>
+            <div>
+                <button class="btn" style="background-color: black; color: white;" onclick="sqrt()">√</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="pow()">SQR</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="log()">LOG</button>
+            </div>
+            <div>
+                <button class="btn" style="background-color: green; color: white;" onclick="clearResult()">CLR</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="abs()">ABS</button>
+                <button class="btn" style="background-color: black; color: white;" onclick="pif()">Pi</button>
+            </div>
+            <div>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('7')">7</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('8')">8</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('9')">9</button>
+                <button class="btn" style="background-color: gray; color: white; width: 43px;"
+                    onclick="getNumber('*')">x</button>
+                <button class="btn" style="background-color: gray; color: white; width: 43px;"
+                    onclick="getNumber('/')">/</button>
+
+            </div>
+            <div>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('4')">4</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('5')">5</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('6')">6</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('-')">-</button>
+            </div>
+            <div>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('1')">1</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('2')">2</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('3')">3</button>
+                <button class="btn" style="background-color: gray; color: white; width: 90px;"
+                    onclick="getNumber('+')">+</button>
+            </div>
+            <div>
+                <button class="btn" style="background-color: gray; color: white;" onclick="getNumber('0')">0</button>
+                <button class="btn" style="background-color: red; color: white;" onclick="getNumber('.')">.</button>
+                <button class="btn" style="background-color: red; color: white;" onclick="getResult('')">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
